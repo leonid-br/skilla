@@ -1,0 +1,37 @@
+.icon {
+    width: 24px;
+    height: 24px;
+    margin-right: 14px;
+}
+
+.plus {
+    margin-left: 17px;
+}
+
+.poin {
+    margin-left: 34px;
+}
+
+.btn {
+    display: flex;
+    justify-content: flex-end;
+    background-color: var(--button-background);
+    color: var(--color-white);
+
+    padding: 13px 0 15px 0;
+    margin-left: 20px;
+    margin-right: 20px;
+
+    border-radius: 4px;
+    border: none;
+
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.plusBtn {
+    margin-top: 64px;
+    margin-bottom: 32px;
+}

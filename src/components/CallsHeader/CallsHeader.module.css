@@ -1,0 +1,125 @@
+.header {
+    display: flex;
+
+    background-color: var(--color-white);
+    box-shadow: var(--calls-header-shadow);
+
+    height: 64px;
+    width: 100%;
+}
+
+.header__list {
+    display: flex;
+
+    margin-left: 86px;
+    padding: 14px 0 29px 0;
+
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+.header__item {
+    position: relative;
+}
+
+.header__item:not(:last-child) {
+    margin-right: 56px;
+}
+
+.header__item::after {
+    content: '';
+    position: absolute;
+
+    height: 6px;
+    width: 100%;
+
+    bottom: 0;
+    left: 0;
+
+    margin-bottom: -7px;
+
+    border-radius: 12px;
+}
+
+.header__item:nth-child(1)::after {
+    background-image: linear-gradient(
+        to right,
+        var(--calls-header-stat-green) 50%,
+        var(--calls-header-stat-gray) 50%
+    );
+}
+
+.header__item:nth-child(2)::after {
+    background-image: linear-gradient(
+        to right,
+        var(--calls-header-stat-yellow) 50%,
+        var(--calls-header-stat-gray) 50%
+    );
+}
+
+.header__item:nth-child(3)::after {
+    background-image: linear-gradient(
+        to right,
+        var(--calls-header-stat-red) 50%,
+        var(--calls-header-stat-gray) 50%
+    );
+}
+
+.header__item:nth-child(1) span {
+    color: var(--calls-header-stat-green);
+}
+
+.header__item:nth-child(2) span {
+    color: var(--calls-header-stat-yellow);
+}
+
+.header__item:nth-child(3) span {
+    color: var(----calls-header-stat-red);
+}
+
+.header__data {
+    padding: 21px 0;
+    margin-left: 120px;
+
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 1.5;
+}
+
+.icon {
+    width: 16px;
+    height: 16px;
+
+    margin-left: 183px;
+    margin-top: 24px;
+}
+
+.name {
+    margin-left: 64px;
+    padding-top: 21px;
+
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 1.5;
+
+    color: var(--calls-header-name);
+}
+
+.vector {
+    width: 12px;
+    height: 8px;
+
+    margin-left: 10px;
+    margin-top: 28px;
+}
+
+.ava {
+    margin-left: 47px;
+    width: 40px;
+    height: 40px;
+    margin-top: 12px;
+}
