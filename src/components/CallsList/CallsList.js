@@ -53,13 +53,13 @@ const CallsList = ({ period }) => {
     };
 
     const onCurrentItem = currentRender => {
-        console.log('currentRender:', currentRender);
+        // console.log('currentRender:', currentRender);
 
         setRender(currentRender);
-        window.scrollTo({
-            top: -1000,
-            behavior: 'smooth',
-        });
+        //     window.scrollTo({
+        //         top: -1000,
+        //         behavior: 'smooth',
+        //     });
     };
 
     if ((status === 'resolved') & (calls.length < 50))
@@ -153,7 +153,7 @@ const CallsList = ({ period }) => {
                     </table>
                     <div className={st.pagination}>
                         <Pagination
-                            itemsPerPage={7}
+                            itemsPerPage={5}
                             data={pagination}
                             currentRender={onCurrentItem}
                         />

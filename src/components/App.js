@@ -3,7 +3,7 @@ import { Route, Routes } from 'react-router-dom';
 import { Suspense, lazy } from 'react';
 
 import st from './App.module.css';
-import contactsData from '../service/getList-api';
+// import contactsData from '../service/getList-api';
 import Calls from './Calls/Calls';
 
 const MenuForm = lazy(() =>

@@ -80,13 +80,17 @@
 }
 
 .header__data {
-    padding: 21px 0;
+    /* padding: 21px 0; */
     margin-left: 120px;
 
     font-style: normal;
     font-weight: normal;
     font-size: 15px;
     line-height: 1.5;
+}
+
+.header__data fieldset {
+    border: none;
 }
 
 .icon {
@@ -122,4 +126,12 @@
     width: 40px;
     height: 40px;
     margin-top: 12px;
+}
+
+.header__input {
+    border: none;
+    outline: none;
+}
+.header__select {
+    outline: none;
 }

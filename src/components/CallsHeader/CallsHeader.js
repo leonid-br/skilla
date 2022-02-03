@@ -1,4 +1,10 @@
 import st from './CallsHeader.module.css';
+
+import InputLabel from '@mui/material/InputLabel';
+import MenuItem from '@mui/material/MenuItem';
+import FormControl from '@mui/material/FormControl';
+import Select from '@mui/material/Select';
+
 import Icon from '../Icon';
 import ava from '../../img/avatar.jpg';
 
@@ -17,7 +23,47 @@ const CallsHeader = ({ onChange }) => {
     return (
         <>
             <div className={st.header}>
-                <select
+                <div className={st.header__data}>
+                    <FormControl sx={{ m: 1, minWidth: 150 }}>
+                        <InputLabel
+                            className={st.header__input}
+                            id="label"
+                        >
+                            {dateNow}
+                        </InputLabel>
+                        <Select
+                            className={st.header__select}
+                            labelId="label"
+                            id="select"
+                            // value={age}
+                            onChange={handleChange}
+                            autoWidth
+                            label="Age"
+                        >
+                            <MenuItem value="dateNow">
+                                <em>{dateNow}</em>
+                            </MenuItem>
+                            <MenuItem value="three">
+                                3 дня
+                            </MenuItem>
+                            <MenuItem value="week">
+                                Неделя
+                            </MenuItem>
+                            <MenuItem value="month">
+                                Месяц
+                            </MenuItem>
+                            <MenuItem value="year">Год</MenuItem>
+                            <MenuItem value="calendar">
+                                Выбрать даты{' '}
+                                <Icon
+                                    name={'search'}
+                                    className={`${st.icon}`}
+                                />
+                            </MenuItem>
+                        </Select>
+                    </FormControl>
+                </div>
+                {/* <select
                     className={st.header__data}
                     onChange={handleChange}
                 >
@@ -26,8 +72,8 @@ const CallsHeader = ({ onChange }) => {
                     <option value="week">Неделя</option>
                     <option value="month">Месяц</option>
                     <option value="year">Год</option>
-                    <option value="calendar">calendar</option>
-                </select>
+                    <option value="calendar">Calendar </option>
+                </select> */}
                 <ul className={st.header__list}>
                     <li className={st.header__item}>
                         Новые звонки <span>20 из 30 шт</span>
