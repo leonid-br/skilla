@@ -97,8 +97,16 @@
     width: 16px;
     height: 16px;
 
-    margin-left: 183px;
+    margin-left: 170px;
     margin-top: 24px;
+}
+
+.search {
+    width: 16px;
+    height: 16px;
+
+    margin-left: 10px;
+    margin-top: 3px;
 }
 
 .name {
@@ -123,15 +131,18 @@
 
 .ava {
     margin-left: 47px;
+    margin-top: 12px;
+
     width: 40px;
     height: 40px;
-    margin-top: 12px;
 }
 
 .header__input {
     border: none;
     outline: none;
 }
+
 .header__select {
     outline: none;
+    width: 100%;
 }

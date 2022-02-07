@@ -4,6 +4,7 @@
 
 .call__row:not(:last-child)::after {
     content: '';
+
     position: absolute;
     left: 0;
     bottom: 0;
@@ -16,8 +17,8 @@
 
 .call__row td {
     padding: 26px 0 21px;
-    text-align: left;
 
+    text-align: left;
     font-style: normal;
     font-weight: normal;
     font-size: 15px;

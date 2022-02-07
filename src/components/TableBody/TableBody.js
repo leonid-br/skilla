@@ -1,10 +1,8 @@
-// import Pagination from '../Pagination';
 import Call from '../Call';
 
 import st from './TableBody.module.css';
 
 const TableBody = ({ data }) => {
-    let i = 0;
     return (
         <>
             <tbody className={st.calls__table_body}>
@@ -20,8 +18,8 @@ const TableBody = ({ data }) => {
                         time,
                     }) => (
                         <Call
-                            // id={id}
-                            id={i++}
+                            key={id}
+                            id={id}
                             callType={in_out}
                             date={date}
                             avatar={person_avatar}

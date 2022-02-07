@@ -51,7 +51,7 @@ const Call = ({
                         />
                     )}
                 </td>
-                <td>{id}</td>
+                <td>{callTime}</td>
                 <td>
                     <img
                         src={avatar ? avatar : `${patrik}`}

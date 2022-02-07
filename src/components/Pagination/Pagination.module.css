@@ -1,14 +1,17 @@
 .number {
-    color: var(--calls-list-mistakes-color);
-    background-color: var(--logo-menu-color);
     cursor: pointer;
+    text-align: center;
+    border-radius: 50%;
+
     width: 55px;
     height: 40px;
+
     margin-left: 5px;
     margin-right: 5px;
-    border-radius: 50%;
-    text-align: center;
     padding: 4px;
+
+    background-color: var(--logo-menu-color);
+    color: var(--calls-list-mistakes-color);
 }
 
 .number:hover:not(.active) {
@@ -18,13 +21,16 @@
 
 .link {
     display: block;
+
     font-size: 25px;
+
     width: 100%;
     height: 100%;
 }
 
 .dots {
     margin-left: 10px;
+
     font-size: 25px;
 }
 
@@ -34,12 +40,14 @@
 }
 
 .prev {
+    cursor: pointer;
+
     margin-left: 10px;
     margin-right: 10px;
+
     color: var(--calls-list-mistakes-color);
 
     font-size: 20px;
-    cursor: pointer;
 }
 
 .prev:hover,
@@ -49,8 +57,10 @@
 }
 
 .next {
-    margin-left: 10px;
-    color: var(--calls-list-mistakes-color);
-    font-size: 20px;
     cursor: pointer;
+
+    margin-left: 10px;
+    font-size: 20px;
+
+    color: var(--calls-list-mistakes-color);
 }

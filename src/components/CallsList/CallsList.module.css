@@ -22,6 +22,7 @@
 .vector {
     width: 10px;
     height: 6px;
+
     margin-left: 8px;
 }
 
@@ -83,7 +84,7 @@
 }
 
 .calls__table_head th:nth-child(7) {
-    padding-left: 364px;
+    padding-left: 300px;
     padding-right: 40px;
 }
 
@@ -106,13 +107,15 @@ option {
 
 .pagination {
     width: 1440px;
+
     margin-top: 10px;
     margin-bottom: 10px;
 }
 
 .pagination ul {
     display: flex;
-    height: 50px;
     align-items: center;
     justify-content: flex-start;
+
+    height: 50px;
 }

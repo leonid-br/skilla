@@ -1,6 +1,7 @@
 .icon {
     width: 24px;
     height: 24px;
+
     margin-right: 14px;
 }
 
@@ -15,6 +16,7 @@
 .btn {
     display: flex;
     justify-content: flex-end;
+
     background-color: var(--button-background);
     color: var(--color-white);
 
