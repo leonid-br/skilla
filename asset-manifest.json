@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/leonid-br/skilla/static/css/main.54142a6e.css",
+    "main.js": "/leonid-br/skilla/static/js/main.933fe2c5.js",
+    "MenuForm.css": "/leonid-br/skilla/static/css/MenuForm.be45e84f.chunk.css",
+    "MenuForm.js": "/leonid-br/skilla/static/js/MenuForm.fa124eb3.chunk.js",
+    "static/media/nonPhoto.jpg": "/leonid-br/skilla/static/media/nonPhoto.e127a279f910b1356dce.jpg",
+    "static/media/avatar.jpg": "/leonid-br/skilla/static/media/avatar.4f44dda6dd87f7b0b74c.jpg",
+    "static/media/sprite.svg": "/leonid-br/skilla/static/media/sprite.8c85684c81e33bf807388cee92acacbf.svg",
+    "index.html": "/leonid-br/skilla/index.html",
+    "main.54142a6e.css.map": "/leonid-br/skilla/static/css/main.54142a6e.css.map",
+    "main.933fe2c5.js.map": "/leonid-br/skilla/static/js/main.933fe2c5.js.map",
+    "MenuForm.be45e84f.chunk.css.map": "/leonid-br/skilla/static/css/MenuForm.be45e84f.chunk.css.map",
+    "MenuForm.fa124eb3.chunk.js.map": "/leonid-br/skilla/static/js/MenuForm.fa124eb3.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.54142a6e.css",
+    "static/js/main.933fe2c5.js"
+  ]
+}
