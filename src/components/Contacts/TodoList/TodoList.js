@@ -17,14 +17,17 @@ const TodoList = ({
 
                 return (
                     <li key={id} className={s.todo}>
-                        <input
-                            type="checkbox"
-                            checked={complited}
-                            onChange={() =>
-                                onToggleComplited(id)
-                            }
-                        />
-                        <p className={className}>{text}</p>
+                        <label className={s.label}>
+                            <input
+                                type="checkbox"
+                                checked={complited}
+                                onChange={() =>
+                                    onToggleComplited(id)
+                                }
+                                className={s.input}
+                            />
+                            <p className={className}>{text}</p>
+                        </label>
                         <button
                             type="button"
                             className={s.btn}
