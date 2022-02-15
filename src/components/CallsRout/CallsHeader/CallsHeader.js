@@ -7,8 +7,8 @@ import MenuItem from '@mui/material/MenuItem';
 import FormControl from '@mui/material/FormControl';
 import Select from '@mui/material/Select';
 
-import Icon from '../Icon';
-import ava from '../../img/avatar.jpg';
+import Icon from 'components/Icon';
+import ava from 'img/avatar.jpg';
 
 const CallsHeader = ({ onChange }) => {
     const [value, setValue] = useState('');

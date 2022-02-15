@@ -1,7 +1,7 @@
 import { v4 } from 'uuid';
-import Icon from '../Icon';
+import Icon from 'components/Icon';
 import st from './Call.module.css';
-import patrik from '../../img/nonPhoto.jpg';
+import patrik from 'img/nonPhoto.jpg';
 
 const Call = ({
     id,
@@ -37,7 +37,7 @@ const Call = ({
 
     return (
         <>
-            <tr key={v4()} className={st.call__row}>
+            <tr key={id} className={st.call__row}>
                 <td>
                     {callType === '1' ? (
                         <Icon

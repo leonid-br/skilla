@@ -1,4 +1,4 @@
-import Icon from '../Icon';
+import Icon from 'components/Icon';
 import st from './Button.module.css';
 
 const Button = ({ text, logoName }) => {

@@ -2,12 +2,12 @@ import { useEffect, useState } from 'react';
 
 import st from './CallsList.module.css';
 
-import Icon from '../Icon';
-import Pagination from '../Pagination';
-import TableBody from '../TableBody';
+import Icon from 'components/Icon';
+import Pagination from 'components/CallsRout/Pagination';
+import TableBody from 'components/CallsRout/TableBody';
 
-import fetchContactsData from '../../service/getList-api';
-import getDateToday from '../../helpers/getDateToday';
+import fetchContactsData from 'service/getList-api';
+import getDateToday from 'helpers/getDateToday';
 
 const CallsList = ({ period }) => {
     const [calls, setCalls] = useState('');

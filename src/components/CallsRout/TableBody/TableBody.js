@@ -1,4 +1,4 @@
-import Call from '../Call';
+import Call from 'components/CallsRout/Call';
 
 import st from './TableBody.module.css';
 

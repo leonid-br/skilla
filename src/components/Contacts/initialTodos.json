@@ -1,0 +1,33 @@
+[
+    {
+        "id": "id-1",
+        "text": "Выучить React",
+        "complited": true
+    },
+    {
+        "id": "id-2",
+        "text": "Повторить JavaScript",
+        "complited": false
+    },
+    {
+        "id": "id-3",
+        "text": "Вызубрить Redux и разобраться в нем",
+        "complited": false
+    },
+    {
+        "id": "id-4",
+        "text": "Повторить CSS",
+        "complited": false
+    },
+    {
+        "id": "id-5",
+        "text": "Постараться не забыть Node.js",
+        "complited": true
+    },
+    {
+        "id": "id-6",
+        "text": "Готовиться к собесодваниям",
+        "complited": false
+    },
+    { "id": "id-7", "text": "Найти работу", "complited": false }
+]
